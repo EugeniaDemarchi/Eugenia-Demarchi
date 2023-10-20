@@ -1,0 +1,149 @@
+/*****************BELOW 1344 PX (for smaller desktops)******************/
+@media (max-width: 84em) {
+  .container {
+    max-width: 120rem;
+  }
+  .footer-info {
+    max-width: 120rem;
+  }
+}
+
+/*****************BELOW 1200 PX (for landscape tablets -apaisadas-)******************/
+@media (max-width: 75em) {
+  html {
+    /*9px /16px=0.5625*/
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 120rem;
+  }
+  .footer-info {
+    max-width: 120rem;
+  }
+}
+/*****************BELOW 940PX (for tablets )******************/
+@media (max-width: 59em) {
+  html {
+    /*8px /16px=0.5*/
+    font-size: 50%;
+  }
+  .container {
+    max-width: 100rem;
+  }
+  .grid-cols {
+    display: flex;
+    gap: 2rem;
+  }
+  .grid-flower-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+  }
+  .cta-img-box {
+    background-image: none;
+    border-radius: 1rem;
+  }
+  .grid-cols img {
+    width: 50%;
+    border-radius: 1rem;
+  }
+  .text-ED {
+    font-size: 2.2rem;
+    line-height: 5rem;
+    align-self: center;
+  }
+  .footer-info {
+    max-width: 100rem;
+  }
+}
+/*****************BELOW 704PX (for smaller tablets )******************/
+@media (max-width: 44em) {
+  .container {
+    max-width: 80rem;
+  }
+
+  h1 {
+    font-size: 7.8rem;
+  }
+  h2 {
+    font-size: 3.3rem;
+    line-height: 0rem;
+  }
+  .self-intro {
+    padding: 0;
+  }
+  .self-intro img {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .grid-3-cols {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+    padding: 0 1rem 8rem 1rem;
+  }
+  .grid-flower-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+  }
+  .footer-info {
+    max-width: 80rem;
+  }
+}
+/*****************BELOW 544PX (for PHONES )******************/
+
+@media (max-width: 34em) {
+  .container {
+    max-width: 60rem;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  h1 {
+    font-size: 9rem;
+    margin-bottom: 3rem;
+  }
+  h2 {
+    font-size: 4.2rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  .grid-3-cols {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-flower-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8rem;
+  }
+
+  .grid-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    padding: 4rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .self-intro {
+  }
+  .self-intro img {
+    justify-items: center;
+    border-radius: 1rem;
+  }
+  .available-products {
+    font-size: 2rem;
+  }
+  h4,
+  .small-pieces {
+    font-size: 4.2rem;
+  }
+  .footer-info {
+    max-width: 60rem;
+  }
+}
